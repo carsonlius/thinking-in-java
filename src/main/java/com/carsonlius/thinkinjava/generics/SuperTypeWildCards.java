@@ -1,6 +1,5 @@
 package com.carsonlius.thinkinjava.generics;
 
-import com.sun.deploy.security.BadCertificateDialog;
 
 import java.util.ArrayList;
 import java.util.List;

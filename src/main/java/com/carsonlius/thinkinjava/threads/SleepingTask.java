@@ -1,7 +1,5 @@
 package com.carsonlius.thinkinjava.threads;
 
-import sun.jvmstat.perfdata.monitor.PerfStringVariableMonitor;
-
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;

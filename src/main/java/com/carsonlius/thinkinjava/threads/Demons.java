@@ -1,7 +1,4 @@
 package com.carsonlius.thinkinjava.threads;
-
-import org.omg.PortableServer.THREAD_POLICY_ID;
-
 class Daemon implements Runnable {
 
     private Thread[] threads = new Thread[10];
