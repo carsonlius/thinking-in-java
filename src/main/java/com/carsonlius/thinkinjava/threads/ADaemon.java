@@ -13,10 +13,13 @@ public class ADaemon implements Runnable {
         }
     }
 
-    public static void main(String[] args) {
-        Thread thread = new Thread(new ADaemon());
-        thread.setDaemon(true);
-        thread.start();
+    public static void main(String[] args) throws InterruptedException {
+        ADaemon aDaemon = new ADaemon();
+        aDaemon.test();
 
+    }
+
+    private void test() throws InterruptedException {
+        wait();
     }
 }
