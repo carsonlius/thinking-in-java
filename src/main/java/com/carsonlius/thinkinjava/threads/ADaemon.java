@@ -16,6 +16,7 @@ public class ADaemon implements Runnable {
     public static void main(String[] args) throws InterruptedException {
         ADaemon aDaemon = new ADaemon();
         aDaemon.test();
+        new LiftOff();
 
     }
 

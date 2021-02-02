@@ -81,8 +81,6 @@ class Chef implements Runnable {
 
                     // 终结所有的线程
                     restaurant.executorService.shutdownNow();
-                    System.out.println("此时已经执行了shutdownNow()");
-                    return;
                 }
 
                 System.out.println("Order Up!");
@@ -91,7 +89,7 @@ class Chef implements Runnable {
                     restaurant.meal = new Meal(orderNum);
                     restaurant.waitPerson.notifyAll();
                 }
-                TimeUnit.MILLISECONDS.sleep(200);
+//                TimeUnit.MILLISECONDS.sleep(200);
             }
 
         } catch (InterruptedException e) {
